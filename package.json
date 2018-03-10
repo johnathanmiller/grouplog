@@ -1,6 +1,6 @@
 {
   "name": "grouplog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Group console logs together.",
   "main": "index.js",
   "scripts": {
