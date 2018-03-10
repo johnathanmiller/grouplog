@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/johnathanmiller/grouplog.svg?branch=master)](https://travis-ci.org/johnathanmiller/grouplog)
 # Group log
 Group console logs together.
 
