@@ -9,7 +9,8 @@ class Group {
         this.endGroup = false;
     }
     static log(message) {
-        this.message = message;
+        var args = Array.prototype.slice.call(arguments);
+        this.message = (args.length > 1) ? args.join(' ') : message;
         return this;
     }
     static get start() {
