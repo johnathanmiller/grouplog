@@ -53,7 +53,7 @@ class Group {
             output = this.message;
         }
         if (this.endGroup) {
-            output += '\r\n' + '\u2514' + '\u2500' + '\r\n';
+            output += '\r\n' + '\u2514' + '\u2500';
         }
 
         console.log(output);
